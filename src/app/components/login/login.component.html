@@ -1,0 +1,11 @@
+<!-- login.component.html -->
+<div class="login">
+    <label for="username">Имя пользователя:</label>
+    <input type="text" id="username" [(ngModel)]="username" placeholder="Enter your username"/>
+  
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" [(ngModel)]="password" placeholder="password"/>
+  
+    <button (click)="login()">Войти</button>
+  </div>
+  
